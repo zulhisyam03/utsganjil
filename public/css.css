@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+   }
+   
+   .box-1 {
+    width: 200px;
+    padding: 20px;
+    background: red;
+    color: white;
+    margin: 0 auto; /* code ini akan membuat div berada di tengah atas */
+   }
+   
+   .box-2 {
+    width: 200px;
+    padding: 20px;
+    background: red;
+    color: white;
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+   
+   .box-3 {
+    width: 200px;
+    padding: 20px;
+    background: red;
+    color: white;
+    /* code di bawah ini akan membuat div berada di tengah bawah */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    bottom: 0;
+   }
+   
+   .box-4 {
+    width: 200px;
+    padding: 20px;
+    background: red;
+    color: white;
+    /* code di bawah ini akan membuat div berada di tengah kiri */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-0%, -50%);
+   }
+   
+   .box-5 {
+    width: 200px;
+    padding: 20px;
+    background: red;
+    color: white;
+    /* code di bawah ini akan membuat div berada di tengah kanan */
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-0%, -50%);
+   }
