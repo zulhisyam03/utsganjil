@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    text-align: center;
 }
 .container{
     margin: 5px auto auto auto;
@@ -17,32 +18,45 @@ body{
         "footer footer footer"
     ;
 }
+.container>div>div{
+    position: relative;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
 header{
+    line-height: 40px;
     background-color: aquamarine;
     grid-area: header;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .konten{
+    border-radius: 5px;
     background-color: cadetblue;
     grid-area: konten;
 }
 .menu1{
+    border-radius: 5px;
     background-color: darkcyan;
     grid-area: menu1;
 }
 .menu2{
+    border-radius: 5px;
     background-color: darkcyan;
     grid-area: menu2;
 }
 .menu3{
+    border-radius: 5px;
     background-color: darkcyan;
     grid-area: menu3;
 }
 .menu4{
+    border-radius: 5px;
     background-color: darkcyan;
     grid-area: menu4;
 }
 footer{
+    border-radius: 5px;
     background-color: dodgerblue;
     grid-area: footer;
 }
