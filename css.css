@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+.container{
+    margin: 5px auto auto auto;
+    height:90vh ;
+    width: 90%;
+    display: grid;
+    grid-gap:5px;
+    border-radius: 20px;
+    grid-template-rows: 40px auto auto 20px;
+    grid-template-columns: 60% 20% 20%;
+    grid-template-areas: 
+        "header header header"
+        "konten menu1 menu2"
+        "konten menu3 menu4"
+        "footer footer footer"
+    ;
+}
+header{
+    background-color: aquamarine;
+    grid-area: header;
+    border-radius: 10px;
+}
+.konten{
+    background-color: cadetblue;
+    grid-area: konten;
+}
+.menu1{
+    background-color: darkcyan;
+    grid-area: menu1;
+}
+.menu2{
+    background-color: darkcyan;
+    grid-area: menu2;
+}
+.menu3{
+    background-color: darkcyan;
+    grid-area: menu3;
+}
+.menu4{
+    background-color: darkcyan;
+    grid-area: menu4;
+}
+footer{
+    background-color: dodgerblue;
+    grid-area: footer;
+}
