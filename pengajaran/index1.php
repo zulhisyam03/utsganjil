@@ -10,18 +10,19 @@
 
   echo SALAM." Nama Saya Adalah ".$nama;
   printf("Tanggal Hari Ini Adalah %s %s <br>",date("d F Y"), $nama);
-  echo "Hello", "Zul Hisyam <p>";
+  echo "Hello ", "Zul Hisyam <p>";
 
   $gaji = "500000 Rupiah";
   $gajib = (int)$gaji;
   $gajid = (double)$gaji;
 
   printf("Gaji String : %s <br>",$gaji) ;
-  printf("Gaji Integer : %s <br>",$gajib) ;
-  printf("Gaji Double : %s <p>",$gajid) ;
+  printf("Gaji Integer : %d <br>",$gajib) ;
+  printf("Gaji Double : %d <p>",$gajid) ;
 
   printf ("1 + 5 = %d <br>", 1+5);
   print ("2 * 5 = "); print(2*5);
   print("<br>");
   echo "10 / 2 = ",10/2,"<br>";
+  print (15-2);
 ?>
