@@ -24,5 +24,4 @@
   print ("2 * 5 = "); print(2*5);
   print("<br>");
   echo "10 / 2 = ",10/2,"<br>";
-  print (15-2);
 ?>
