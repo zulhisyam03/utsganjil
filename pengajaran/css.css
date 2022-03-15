@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    margin: 5px auto auto auto;
+    height:90vh ;
+    width: 90%;
+    display: grid;
+    grid-gap:5px;
+    border-radius: 20px;
+    grid-template-rows: 60px 40px 40px 40px;
+    grid-template-columns: 60% 20% 20%;
+    grid-template-areas: 
+        "header header header"
+        "konten menu1 menu2"
+        "konten menu3 menu4"
+        "footer footer footer"
+    ;
+}
+.container>div>div{
+    position: relative;
+    color: white;
+    
+}
+header{
+    background-color: aquamarine;
+    grid-area: header;
+    border-radius: 5px;
+}
+.konten{
+    border-radius: 5px;
+    background-color: cadetblue;
+    grid-area: konten;
+}
+.menu1{
+    border-radius: 5px;
+    background-color: darkcyan;
+    grid-area: menu1;
+}
+.menu2{
+    border-radius: 5px;
+    background-color: darkcyan;
+    grid-area: menu2;
+}
+.menu3{
+    border-radius: 5px;
+    background-color: darkcyan;
+    grid-area: menu3;
+}
+.menu4{
+    border-radius: 5px;
+    background-color: darkcyan;
+    grid-area: menu4;
+}
+footer{
+    border-radius: 5px;
+    background-color: dodgerblue;
+    grid-area: footer;
+}
