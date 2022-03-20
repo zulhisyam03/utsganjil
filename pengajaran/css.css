@@ -21,7 +21,8 @@ body{
 .container>div>div{
     position: relative;
     color: white;
-    
+    top: 50%;
+    transform: translateY(-50%);
 }
 header{
     background-color: aquamarine;

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Pelanggan</title>
+</head>
+<body>
+    <h2 align="center">Masukan Data Pelanggan</h2>
+    <hr>
+    <pre>
+    <form action="proses.php" method="post">
+        <b>Nama Pelanggan   : </b> <input type="text" name="nama" id=""><br>
+        <b>Alamat           : </b> <input type="text" name="alamat" id=""><p>
+        <b>Jenis Kelamin : </b><input type="radio" name="jk" value="Laki-Laki" id="">Laki-Laki <input type="radio" name="jk" value="Perempuan" id="">Perempuan <p>
+        <b>Umur :</b>
+            <select name="umur" id="">
+                <option value="0-29">Di Bawah 30 Tahun</option>
+                <option value="30-60">Anatara 3-60 Tahun</option>
+                <option value="60+">Di Atas 60 Tahun</option>
+            </select><p>
+        <b>Nama Barang : </b>
+            <input type="checkbox" name="brg1" value="Harddisk" id="">Harddisk &nbsp;&nbsp;
+            <input type="checkbox" name="brg2" value="CDROM" id="">CDROM &nbsp;&nbsp;
+            <input type="checkbox" name="brg3" value="Mouse" id="">Mouse &nbsp;&nbsp;
+            <input type="checkbox" name="brg4" value="Keyboard" id="">Keyboard &nbsp;&nbsp;<br>
+        <b>Jumlah Barang : </b> <input type="text" name="jml_barang" size="2" value="1"><p>
+        <input type="submit" value="Cetak"> <input type="reset" value="Batal">
+    </form>
+    </pre>
+</body>
+</html>
